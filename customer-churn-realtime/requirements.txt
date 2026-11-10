@@ -1,0 +1,26 @@
+########################################
+# Customer Churn Real-Time Analytics
+# Python dependencies
+########################################
+
+# Core data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Machine learning
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# Kafka client
+kafka-python>=2.0.2
+
+# Dashboard & visualization
+streamlit>=1.28.0
+plotly>=5.17.0
+matplotlib>=3.7.0
+
+# Config / environment
+python-dotenv>=1.0.0
+
+# Synthetic data generation (used by data generator + simulator)
+Faker>=19.0.0

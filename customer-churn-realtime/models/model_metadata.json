@@ -1,0 +1,80 @@
+{
+  "best_model": "random_forest",
+  "all_results": {
+    "logistic_regression": {
+      "accuracy": 0.65,
+      "precision": 0.2611464968152866,
+      "recall": 0.6307692307692307,
+      "f1_score": 0.36936936936936937,
+      "roc_auc": 0.7222962112514352,
+      "confusion_matrix": [
+        [
+          219,
+          116
+        ],
+        [
+          24,
+          41
+        ]
+      ]
+    },
+    "random_forest": {
+      "accuracy": 0.815,
+      "precision": 0.43283582089552236,
+      "recall": 0.4461538461538462,
+      "f1_score": 0.4393939393939394,
+      "roc_auc": 0.7454420206659013,
+      "confusion_matrix": [
+        [
+          297,
+          38
+        ],
+        [
+          36,
+          29
+        ]
+      ]
+    },
+    "gradient_boosting": {
+      "accuracy": 0.8125,
+      "precision": 0.14285714285714285,
+      "recall": 0.03076923076923077,
+      "f1_score": 0.05063291139240506,
+      "roc_auc": 0.6949253731343283,
+      "confusion_matrix": [
+        [
+          323,
+          12
+        ],
+        [
+          63,
+          2
+        ]
+      ]
+    }
+  },
+  "feature_columns": [
+    "tenure",
+    "monthly_charges",
+    "total_charges",
+    "data_usage",
+    "call_usage",
+    "support_calls",
+    "payment_failures",
+    "complaints",
+    "login_activity",
+    "service_interruptions",
+    "satisfaction_score",
+    "support_call_rate",
+    "payment_failure_rate",
+    "usage_change",
+    "complaint_frequency",
+    "customer_activity_score",
+    "contract_risk",
+    "contract",
+    "internet_service",
+    "payment_method"
+  ],
+  "training_rows": 2000,
+  "churn_rate": 0.1615
+}
